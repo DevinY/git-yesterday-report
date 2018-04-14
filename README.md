@@ -7,6 +7,7 @@ cp env.py.example env.py
 </pre>
 #### 二、依自己的環境，修改env.py
 <pre>
+# -*- coding: utf-8 -*-
 #寄件者
 me = "me@exampl.test"
 
