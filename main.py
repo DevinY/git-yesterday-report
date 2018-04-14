@@ -5,7 +5,11 @@ from sys import version_info
 #正規式re模組
 import subprocess
 import re
-import env
+try:
+    import env
+except:
+    print("請執行下方指令拷貝環境模組:\ncp env.py.example env.py\n並修改env.py中的環境設定")
+    quit()
 #郵件套件
 import smtplib
 from email.mime.multipart import MIMEMultipart
