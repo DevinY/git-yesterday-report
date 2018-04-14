@@ -14,5 +14,7 @@ cp env.py.example env.py
 或python3
 <pre>pyton3 main.py</pre>
 
-四、加入crontab每日執行
+四、加入crontab每日執行，例如:
+<pre>
 10 0 * * * /usr/local/scripts/git-yesterday-report/main.py
+</pre>
