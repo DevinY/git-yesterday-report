@@ -43,7 +43,7 @@ mail_password = env.mail_password
 #=======環境設定結束==========
 
 
-#執行的報表名命
+#執行的報表的git指令
 command = [ "git", "log", "--pretty=format:'%h - <b>%an:<font color='blue'>%s</font>(%ar)</b>'","--since",since, "--until",until, "--stat", ]
 
 #切換到工作目錄
