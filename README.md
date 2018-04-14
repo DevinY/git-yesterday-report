@@ -1,7 +1,7 @@
 # git-yesterday-report
 發送昨天的git紀錄
 
-#### 一、考備出設定檔模組
+#### 一、拷貝出設定檔模組
 <pre>
 cp env.py.example env.py
 </pre>
